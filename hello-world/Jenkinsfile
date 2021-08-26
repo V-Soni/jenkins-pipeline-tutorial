@@ -6,7 +6,7 @@ pipeline {
                 echo 'Run the static analysis to the code quickly' 
             }
         }
-        stage('Compile') {
+        stage('Compilation Stage') {
             steps {
                 echo 'Compile the source code' 
             }
